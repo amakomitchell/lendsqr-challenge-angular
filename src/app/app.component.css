@@ -1,0 +1,19 @@
+#side-menu {
+	width: 240px;
+	box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.0276834);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+	bottom: 0%;
+}
+
+#right-content {
+	position: absolute;
+  left: 240px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #F4F6F9;
+	padding: 22px 50px 22px 50px;
+}

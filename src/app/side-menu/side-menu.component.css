@@ -1,0 +1,56 @@
+#company-logo-container {
+	background: rgba(244, 246, 249, 0.5);
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 42px;
+}
+
+#company-name {
+  font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 14px;
+	color: #545F7D;
+}
+
+#company-logo {
+	width: 35px;
+  height: 35px;
+  border-radius: 17.5px;
+  margin-right: 15px;
+  background: #EDF1F5;
+}
+
+#right-icon {
+	opacity: 0.3;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#side-menu {
+
+}
+
+#side-menu-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 35px;
+	/* align-items: center; */
+	/* justify-content: center; */
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#label {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 16px;
+	color: #545F7D;
+	opacity: 0.6;
+}

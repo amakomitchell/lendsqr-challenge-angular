@@ -1,0 +1,26 @@
+<div id="products-table-data-row" *ngFor="let product of rows" (click)="openModal(template)">
+	<div id="products-table-data-container">
+		<p id="products-table-data">
+			{{product.name}}
+		</p>
+	</div>
+	<div id="products-table-data-container">
+		<p id="products-table-data products-data-tenor">
+			{{product.tenor}}
+		</p>
+	</div>
+	<div id="products-table-data-container">
+		<p id="products-table-data products-data-amount">
+			{{product.amount}}
+		</p>
+	</div>
+	<div id="product-list-item-right-content">
+		<p id="product-action-link product-action-link-space">
+			View
+		</p>
+		<p id="product-action-link">
+			Edit
+		</p>
+		
+	</div>
+</div>
